@@ -17,12 +17,12 @@ var img3Val = getRndInteger(1, 13)
 var img4Val = getRndInteger(1, 13)
 
 function reset() {
-    var targetNumber = getRndInteger(19, 120)
-    var img1Val = getRndInteger(1, 13)
-    var img2Val = getRndInteger(1, 13)
-    var img3Val = getRndInteger(1, 13)
-    var img4Val = getRndInteger(1, 13)
-    var yourScore = 0;
+    targetNumber = getRndInteger(19, 120)
+    img1Val = getRndInteger(1, 13)
+    img2Val = getRndInteger(1, 13)
+    img3Val = getRndInteger(1, 13)
+    img4Val = getRndInteger(1, 13)
+    yourScore = 0;
 }
 
 function checkScore() {
@@ -30,8 +30,8 @@ function checkScore() {
     alert("Nice Job! You've successfully made the potion")
     wins++
     reset();
-    
-    if ((yourScore) > (targetNumber))
+}    
+    else if ((yourScore) > (targetNumber)) {
     alert("The witch's cauldron explodes in your face, Boom!!! You've added to much!!!")
     losses++
     reset();
