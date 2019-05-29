@@ -27,12 +27,12 @@ function reset() {
 
 function checkScore() {
     if ((yourScore) === (targetNumber)) {
-    alert("Nice Job! You've successfully made the potion")
+    alert("Nice Job! You've successfully made some Wildfire.  The Mad King will be pleased!")
     wins++
     reset();
 }    
     else if ((yourScore) > (targetNumber)) {
-    alert("The witch's cauldron explodes in your face, Boom!!! You've added to much!!!")
+    alert("AHHHHHH IT BURNS AHHHH")
     losses++
     reset();
 }

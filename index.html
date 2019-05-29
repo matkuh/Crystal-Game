@@ -14,34 +14,35 @@
     
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Witches Potion</h1>
-          <p class="lead">You will be given a random number (target number) at the start of the game.</p>
-          <p class="lead">There are 4 ingredients below.  By clicking the ingredient you will add a specific amount of points to your total score</p>
-          <p class="lead">You will win the game by matching the total score with the random number.  You lose if your total score goes over the random number.</p>
-          <p class="lead">The value of each ingredient is hidden, and each time the game starts, these values will change.</p>
+          <h1 class="display-4">The Mad King Needs Your Help!</h1>
+          <h2>Instructions</h2>
+          <p class="lead instructions">- The Mad King recently burned his pyromancer alive and you are to take his place! He wants you to create as much Wildfire as you can, the only problem is the recipie was on the pyromancer when he was set ablaze!</p>
+          <p class="lead instructions">- You find 4 ingredients on the table in the pyromancers lab.  Each ingredient has a randomized potency and it is your job to combine them together to reach the required potency to make the wildfire.</p>
+          <p class="lead instructions">- If you can get your current potency to match the required potency, you will make the wildfire, and if not, you will die!</p>
+          <p class="lead instructions">- Every time you succeed or fail to make the wildfire, the potency of each ingredient will change again.</p>
         </div>
     </div>
 
-    <div class="card mb-3 resultsrow" style="max-width: 700px;">
+    <div class="card mb-3 cardrow" style="max-width: 700px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <h5 class="card-title totalscore">Your Current Score: <span id="currentScore"></span></h5>
-            <h5 class="card-title">Target Number: <span id="targNumb"></span></h5>
+            <h5 class="card-title totalscore">Current Potency: <span id="currentScore"></span></h5>
+            <h5 class="card-title">Required Potency: <span id="targNumb"></span></h5>
             <img src="assets/images/cauldron.jpg" class="card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h3 class="card-text">Wins: <span id="wins"></span></h3>
-              <h3 class="card-text">Losses: <span id="losses"></span></h3>
+              <h3 class="card-text">Wildfires Made: <span id="wins"></span></h3>
+              <h3 class="card-text">Deaths: <span id="losses"></span></h3>
             </div>
           </div>
         </div>
     </div>
 
 
-    <div class="card-group">
+    <div class="card-group cardrow" style="max-width: 800px;">
         <div class="card">
-            <img id="img1" src="assets/images/blood.jpg" class="card-img-top" alt="...">
+            <img id="img1" src="assets/images/blood.png" class="card-img-top" alt="...">
         </div>
         <div class="card">
             <img id="img2" src="assets/images/eyeball.gif" class="card-img-top" alt="...">
