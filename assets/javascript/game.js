@@ -40,7 +40,19 @@ function checkScore() {
 $("#img1").on("click", function() {
     yourScore + img1Val; 
     checkScore();
-    
+})
+$("#img2").on("click", function() {
+    yourScore + img2Val; 
+    checkScore();
+})
+$("#img3").on("click", function() {
+    yourScore + img3Val; 
+    checkScore();
+})
+$("#img4").on("click", function() {
+    yourScore + img4Val; 
+    checkScore();
+})
 
 
 });
