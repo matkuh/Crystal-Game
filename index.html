@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,7 +22,7 @@
         </div>
     </div>
 
-    <div class="card mb-3 resultsrow" style="max-width: 540px;">
+    <div class="card mb-3 resultsrow" style="max-width: 700px;">
         <div class="row no-gutters">
           <div class="col-md-4">
             <h5 class="card-title totalscore">Your Current Score: <span id="currentScore"></span></h5>
@@ -30,9 +31,8 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Wins: <span id="wins"></span></p>
-              <p class="card-text">Losses: <span id="losses"></span></p>
+              <h3 class="card-text">Wins: <span id="wins"></span></h3>
+              <h3 class="card-text">Losses: <span id="losses"></span></h3>
             </div>
           </div>
         </div>
@@ -40,19 +40,20 @@
 
 
     <div class="card-group">
-        <div class="card" id="img1">
-          <img src="assets/images/blood.jpg" class="card-img-top" alt="...">
+        <div class="card">
+            <img id="img1" src="assets/images/blood.jpg" class="card-img-top" alt="...">
         </div>
-        <div class="card" id="img2">
-          <img src="assets/images/eyeball.gif" class="card-img-top" alt="...">
+        <div class="card">
+            <img id="img2" src="assets/images/eyeball.gif" class="card-img-top" alt="...">
         </div>
-        <div class="card" id="img3">
-            <img src="assets/images/frog.jpg" class="card-img-top" alt="...">
+        <div class="card">
+            <img id="img3" src="assets/images/frog.jpg" class="card-img-top" alt="...">
         </div>
-        <div class="card" id="img4">
-            <img src="assets/images/worm.gif" class="card-img-top" alt="...">
+        <div class="card">
+            <img id="img4" src="assets/images/worm.gif" class="card-img-top" alt="...">
         </div>
     </div>
+    
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
