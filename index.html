@@ -11,8 +11,9 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <div class="jumbotron jumbotron-fluid">
+ 
+  <div id=bodywrap>
+    <div class="jumbotron jumbotron-fluid" style="background: transparent;">
         <div class="container">
           <h1 class="display-4">The Mad King Needs Your Help!</h1>
           <h2>Instructions</h2>
@@ -24,7 +25,7 @@
     </div>
 
     <div class="card mb-3 cardrow" style="max-width: 700px;">
-        <div class="row no-gutters">
+        <div class="row no-gutters" >
           <div class="col-md-4">
             <h5 class="card-title totalscore">Current Potency: <span id="currentScore"></span></h5>
             <h5 class="card-title">Required Potency: <span id="targNumb"></span></h5>
@@ -32,13 +33,18 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
+              <br>
+              <br>
               <h3 class="card-text">Wildfires Made: <span id="wins"></span></h3>
+              <br>
+              <br>
+              <br>
+              <br>
               <h3 class="card-text">Deaths: <span id="losses"></span></h3>
             </div>
           </div>
         </div>
     </div>
-
 
     <div class="card-group cardrow" style="max-width: 800px;">
         <div class="card">
@@ -54,7 +60,9 @@
             <img id="img4" src="assets/images/worm.gif" class="card-img-top" alt="...">
         </div>
     </div>
-    
+    <br>
+  </div>
+
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>

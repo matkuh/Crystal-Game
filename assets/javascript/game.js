@@ -29,11 +29,13 @@ function checkScore() {
     if ((yourScore) === (targetNumber)) {
     alert("You've successfully made some Wildfire.  The Mad King will be pleased!")
     wins++
+    $('#bodywrap').css('background-image','url(https://media.giphy.com/media/kjFyZgX4rSZby/giphy.gif)');
     reset();
 }    
     else if ((yourScore) > (targetNumber)) {
     alert("You've added too much! The cauldron erupts and engulfs you in fire! AHHHHHHHHHHHHHHHHH")
     losses++
+    $('#bodywrap').css('background-image','url(http://24.media.tumblr.com/tumblr_m4qbxmaTU51qkvue8o2_500.gif)');
     reset();
 }
     $("#currentScore").html(yourScore);

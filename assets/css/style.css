@@ -3,13 +3,28 @@
 }
 h3 {
     text-align: center;
+    color: black;
 }
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
 }
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    color: black;
 }
 .instructions {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#bodywrap {
+    background-image:url(https://media.giphy.com/media/kjFyZgX4rSZby/giphy.gif); 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
 }
