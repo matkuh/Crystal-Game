@@ -27,12 +27,12 @@ function reset() {
 
 function checkScore() {
     if ((yourScore) === (targetNumber)) {
-    alert("Nice Job! You've successfully made some Wildfire.  The Mad King will be pleased!")
+    alert("You've successfully made some Wildfire.  The Mad King will be pleased!")
     wins++
     reset();
 }    
     else if ((yourScore) > (targetNumber)) {
-    alert("AHHHHHH IT BURNS AHHHH")
+    alert("You've added too much! The cauldron erupts and engulfs you in fire! AHHHHHHHHHHHHHHHHH")
     losses++
     reset();
 }
