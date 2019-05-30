@@ -1,3 +1,5 @@
+<img src="assets/images/gamess.png" width=600 height=400>
+
 ### I used HTML, CSS, BootStrap, JavaScript, and JQuery to build an adding and guessing game.  You get 4 buttons, each assigned a random number between 1-12.  When you click a button, it adds to your total, which you have to make equal to another randomized value.  Wins and losses are also tallied.  
 
 ## Tech I Used 
